@@ -118,9 +118,27 @@ h2 {
 }
 .auction {
   display: flex;
+  justify-content: space-around;
 }
 .footer_upsell {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
+}
+.footer_image {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+  max-width: 100%;
+  width: 70%;
+}
+footer {
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.right {
+  display: flex;
   justify-content: space-between;
 }
